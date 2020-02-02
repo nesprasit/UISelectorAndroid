@@ -1,23 +1,25 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
 
 ext {
-    bintrayRepo = 'ui-kit'
-    bintrayName = 'com.nes.uikit'
+    bintrayRepo = 'maven'
+    bintrayName = 'com.nes.design'
 
-    publishedGroupId = 'com.nes.uikit'
-    libraryName = 'uikit'
-    artifact = 'uikit'
+    publishedGroupId = 'com.nes.design'
+    libraryName = 'design'
+    artifact = 'design'
 
-    libraryDescription = 'UI Kit for android'
+    libraryDescription = 'UI Component for Android'
 
     siteUrl = 'https://github.com/okanesboy/Android-UI-Kit'
     gitUrl = 'https://github.com/okanesboy/Android-UI-Kit.git'
 
     libraryVersion = '0.1.0'
 
-    developerId = 'nes'
+    developerId = 'library'
     developerName = 'Prasit Singzom'
     developerEmail = 'xitlbmtbnnes@gmail.com'
 
@@ -62,3 +64,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

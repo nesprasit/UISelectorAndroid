@@ -1,4 +1,4 @@
-package com.nes.uikitapp
+package com.nes.app
 
 import org.junit.Test
 
