@@ -26,6 +26,10 @@ ext {
     allLicenses = ["Apache-2.0"]
 }
 
+tasks.withType(Javadoc).all {
+    enabled = false
+}
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -35,15 +39,19 @@ android {
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
-        versionName "0.1"
+        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
     }
-}
 
-tasks.withType(Javadoc).all {
-    enabled = false
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
 }
 
 dependencies {
@@ -55,8 +63,3 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
-
-//Add these lines to publish library to bintray
-//Place it at the end of the file
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

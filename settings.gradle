@@ -1,2 +1,2 @@
-include ':app', ':uikit'
+include ':app', ':design'
 rootProject.name='Android-UI-Kit'
