@@ -1,2 +1,2 @@
 include ':demo-app', ':design'
-rootProject.name='Android-UI-Kit'
+rootProject.name='UI-Kit-Android'
