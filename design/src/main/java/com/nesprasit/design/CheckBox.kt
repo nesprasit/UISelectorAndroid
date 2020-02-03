@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 (Nes) Maew.dev
+ * Copyright (C) 2020 Nesprasit
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ import com.nesprasit.design.core.ViewValue
 import com.nesprasit.design.core.aniamtion.AnimationManager
 
 /**
- * Created by (Nes) Maew.dev on 2020-01-21 01:25
+ * Created by Nesprasit (https://Maew.dev) on 2020-01-21 01:25
  */
 
 class CheckBox : View, View.OnTouchListener {
@@ -170,7 +170,6 @@ class CheckBox : View, View.OnTouchListener {
 
         canvas?.scale(1F, scale, 1F, value.top)
         canvas?.drawRoundRect(rectangle, 2F, 2F, selectedPaint)
-
         canvas?.drawBitmap(bitmapCheck, null, bitmapRectF, bitmapPaint)
     }
 

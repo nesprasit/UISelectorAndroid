@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".CheckBoxActivity"/>
+        <activity android:name=".RadioButtonActivity"/>
+        <activity android:name=".SwitchViewActivity"/>
     </application>
 
 </manifest>

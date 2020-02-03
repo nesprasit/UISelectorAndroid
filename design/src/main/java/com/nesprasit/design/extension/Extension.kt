@@ -13,24 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nesprasit.design.core
+package com.nesprasit.design.extension
+
+import android.content.Context
+import android.util.DisplayMetrics
 
 /**
- * Created by Nesprasit (https://Maew.dev) on 2020-01-21 00:29
+ * Created by Nesprasit (https://Maew.dev) on 2020-02-03 18:38
  */
 
-data class ViewValue(
-    var isEnable: Boolean = true,
-    var isSelector: Boolean = false,
-    var strokeWidth: Float = 0F,
-    var viewWidth: Int = 0,
-    var viewHeight: Int = 0,
-    var centerX: Float = 0F,
-    var centerY: Float = 0F,
-    var padding: Float = 0F,
-    var top: Float = 0F,
-    var left: Float = 0F,
-    var right: Float = 0F,
-    var bottom: Float = 0F,
-    var radius: Float = 0F
-)
+fun Float.dpTopx(context: Context):Float{
+    return this * (context.resources.displayMetrics.densityDpi / DisplayMetrics.DENSITY_DEFAULT)
+}

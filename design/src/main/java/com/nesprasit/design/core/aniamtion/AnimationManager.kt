@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 (Nes) Maew.dev
+ * Copyright (C) 2020 Nesprasit
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ import android.view.animation.AccelerateDecelerateInterpolator
 import androidx.core.animation.addListener
 
 /**
- * Created by (Nes) Maew.dev on 2020-01-20 23:52
+ * Created by Nesprasit (https://Maew.dev) on 2020-01-20 23:52
  */
 
 class AnimationManager {
