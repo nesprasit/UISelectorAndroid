@@ -1,23 +1,20 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'com.jfrog.bintray'
-apply plugin: 'com.github.dcendents.android-maven'
 
 ext {
-    bintrayRepo = 'maven'
+    bintrayRepo = 'library'
     bintrayName = 'com.nes.design'
 
     publishedGroupId = 'com.nes.design'
-    libraryName = 'design'
     artifact = 'design'
 
+    libraryName = 'design'
+    libraryVersion = '0.1.0'
     libraryDescription = 'UI Component for Android'
 
-    siteUrl = 'https://github.com/okanesboy/Android-UI-Kit'
-    gitUrl = 'https://github.com/okanesboy/Android-UI-Kit.git'
-
-    libraryVersion = '0.1.0'
+    siteUrl = 'https://github.com/okanesboy/UIKit-Android'
+    gitUrl = 'https://github.com/okanesboy/UIKit-Android.git'
 
     developerId = 'library'
     developerName = 'Prasit Singzom'
@@ -37,10 +34,9 @@ android {
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "0.1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles 'consumer-rules.pro'
     }
 
     buildTypes {
@@ -49,10 +45,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-}
-
-tasks.withType(Javadoc).all {
-    enabled = false
 }
 
 dependencies {
@@ -65,5 +57,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
 
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+repositories {
+    mavenCentral()
+}
+
+if (project.rootProject.file('local.properties').exists()) {
+    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+}

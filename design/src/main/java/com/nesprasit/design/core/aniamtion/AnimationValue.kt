@@ -13,24 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nes.design.core
+package com.nesprasit.design.core.aniamtion
 
 /**
- * Created by (Nes) Maew.dev on 2020-01-21 00:29
+ * Created by (Nes) Maew.dev on 2020-01-21 00:15
  */
 
-data class ViewValue(
-    var isEnable: Boolean = true,
-    var isSelector: Boolean = false,
-    var strokeWidth: Float = 0F,
-    var viewWidth: Int = 0,
-    var viewHeight: Int = 0,
-    var centerX: Float = 0F,
-    var centerY: Float = 0F,
-    var padding: Float = 0F,
-    var top: Float = 0F,
-    var left: Float = 0F,
-    var right: Float = 0F,
-    var bottom: Float = 0F,
-    var radius: Float = 0F
+data class AnimationValue(
+    var rotate: Float = 0F,
+    var scale: Float = 0F,
+    var translate: Float = 0F
 )

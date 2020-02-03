@@ -1,4 +1,4 @@
-package com.nes.app
+package com.nesprasit.design
 
 import org.junit.Test
 

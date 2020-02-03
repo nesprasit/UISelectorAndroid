@@ -1,4 +1,4 @@
-package com.nes.design
+package com.nesprasit.design
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

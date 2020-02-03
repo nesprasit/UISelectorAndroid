@@ -1,4 +1,4 @@
-package com.nes.app
+package com.nesprasit.app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

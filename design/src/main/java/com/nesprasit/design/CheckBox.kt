@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nes.design
+package com.nesprasit.design
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -25,8 +25,8 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.drawable.toBitmap
-import com.nes.design.core.ViewValue
-import com.nes.design.core.aniamtion.AnimationManager
+import com.nesprasit.design.core.ViewValue
+import com.nesprasit.design.core.aniamtion.AnimationManager
 
 /**
  * Created by (Nes) Maew.dev on 2020-01-21 01:25
