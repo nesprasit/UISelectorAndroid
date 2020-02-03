@@ -15,6 +15,39 @@ Gradle
 ```
 implementation 'com.nesprasit.design:design:0.1.0'
 ```
+## How to use
+CheckBox
+```
+<com.nesprasit.design.CheckBox
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  app:size="40dip"
+  app:checked="false"
+  app:stroke_width="2dp"
+  app:enabled="true"/>
+```
+
+RadioButton
+```
+<com.nesprasit.design.RadioButton
+    android:id="@+id/radio1"
+    android:layout_width="50dip"
+    android:layout_height="50dip"
+    app:stroke_width="5dp"
+    app:enabled="true"
+    app:checked="false"/>
+```
+
+SwitchView
+```
+<com.nesprasit.design.SwitchView
+    android:id="@+id/switch3"
+    android:layout_width="80dip"
+    android:layout_height="40dip"
+    android:layout_marginBottom="20dp"
+    app:enabled="true"
+    app:checked="false"/>
+```
 ## License
 ```
 Copyright (C) 2020 Nesprasit
