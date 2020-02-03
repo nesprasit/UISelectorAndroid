@@ -2,7 +2,19 @@
 UI Kit is component for Android
 
 ## Installation
-
+Maven
+```
+<dependency>
+  <groupId>com.nes.design</groupId>
+  <artifactId>design</artifactId>
+  <version>0.1.0</version>
+  <type>pom</type>
+</dependency>
+```
+Gradle
+```
+implementation 'com.nes.design:design:0.1.0'
+```
 ## License
 ```
 Copyright (C) 2020 (Nes) Maew.dev
