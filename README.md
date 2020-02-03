@@ -7,13 +7,13 @@ Maven
 <dependency>
   <groupId>com.nesprasit.design</groupId>
   <artifactId>design</artifactId>
-  <version>0.1.0</version>
+  <version>1.0.0</version>
   <type>pom</type>
 </dependency>
 ```
 Gradle
 ```
-implementation 'com.nesprasit.design:design:0.1.0'
+implementation 'com.nesprasit.design:design:1.0.0'
 ```
 ## How to use
 CheckBox
@@ -38,6 +38,7 @@ RadioButton
     app:enabled="true"
     app:checked="false"/>
 ```
+![](./example/radiobutton.gif)
 
 SwitchView
 ```
@@ -49,6 +50,8 @@ SwitchView
     app:enabled="true"
     app:checked="false"/>
 ```
+![](./example/switchview.gif)
+
 ## License
 ```
 Copyright (C) 2020 Nesprasit
