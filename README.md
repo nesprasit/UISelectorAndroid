@@ -5,7 +5,7 @@ UI Kit is component for Android
 Maven
 ```
 <dependency>
-  <groupId>com.nes.design</groupId>
+  <groupId>com.nesprasit.design</groupId>
   <artifactId>design</artifactId>
   <version>0.1.0</version>
   <type>pom</type>
@@ -13,7 +13,7 @@ Maven
 ```
 Gradle
 ```
-implementation 'com.nes.design:design:0.1.0'
+implementation 'com.nesprasit.design:design:0.1.0'
 ```
 ## License
 ```
