@@ -26,7 +26,7 @@ CheckBox
   app:stroke_width="2dp"
   app:enabled="true"/>
 ```
-![CheckBoxView](https://github.com/nesprasit/UIKit-Android/blob/master/example/checkbox.gif)
+![CheckBoxView](https://github.com/nesprasit/UIKit-Android/blob/master/example/checkbox.gif =250x)
 
 RadioButton
 ```
