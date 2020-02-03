@@ -17,7 +17,7 @@ implementation 'com.nesprasit.design:design:0.1.0'
 ```
 ## License
 ```
-Copyright (C) 2020 (Nes) Maew.dev
+Copyright (C) 2020 Nesprasit
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
