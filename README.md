@@ -1,4 +1,4 @@
-# Android-UI-Kit
+# UI Kit Android 
 UI Kit is component for Android
 
 ## Installation
