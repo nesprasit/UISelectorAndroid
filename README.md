@@ -1,3 +1,4 @@
+![MinSdk](https://img.shields.io/badge/minSdk-19-green.svg)
 [![jCenter](https://img.shields.io/badge/jCenter-1.0.0-green.svg)](https://bintray.com/okanesboy/library/com.nesprasit.design/_latestVersion)
 [![](https://img.shields.io/badge/License-Apache_v2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 # UI Kit Android 
