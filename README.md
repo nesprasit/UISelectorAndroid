@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/License-Apache_v2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 # UI Kit Android 
 UI Kit is component for Android
 
