@@ -10,7 +10,7 @@ ext {
     artifact = 'selector'
 
     libraryName = 'library'
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.2'
     libraryDescription = 'UI Component for Android'
 
     siteUrl = 'https://github.com/okanesboy/UISelector'

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nesprasit.library
+package com.nesprasit
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -26,9 +26,10 @@ import android.os.SystemClock
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
-import com.nesprasit.library.core.ViewValue
-import com.nesprasit.library.core.aniamtion.AnimationManager
-import com.nesprasit.library.extension.dpTopx
+import com.nesprasit.core.ViewValue
+import com.nesprasit.core.aniamtion.AnimationManager
+import com.nesprasit.extension.dpTopx
+import com.nesprasit.library.R
 
 /**
  * Created by Nesprasit (https://Maew.dev) on 2020-01-24 15:30

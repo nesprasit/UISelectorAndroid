@@ -13,14 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nesprasit.library.core.aniamtion
+package com.nesprasit.extension
+
+import android.content.Context
+import android.util.DisplayMetrics
 
 /**
- * Created by Nesprasit (https://Maew.dev) on 2020-01-21 00:15
+ * Created by Nesprasit (https://Maew.dev) on 2020-02-03 18:38
  */
 
-data class AnimationValue(
-    var rotate: Float = 0F,
-    var scale: Float = 0F,
-    var translate: Float = 0F
-)
+fun Float.dpTopx(context: Context):Float{
+    return this * (context.resources.displayMetrics.densityDpi / DisplayMetrics.DENSITY_DEFAULT)
+}

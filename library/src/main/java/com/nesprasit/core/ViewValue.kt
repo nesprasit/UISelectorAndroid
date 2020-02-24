@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nesprasit.library.core
+package com.nesprasit.core
 
 /**
  * Created by Nesprasit (https://Maew.dev) on 2020-01-21 00:29

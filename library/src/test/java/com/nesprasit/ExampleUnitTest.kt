@@ -1,4 +1,4 @@
-package com.nesprasit.library
+package com.nesprasit
 
 import org.junit.Test
 

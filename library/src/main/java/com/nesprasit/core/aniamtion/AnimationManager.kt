@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.nesprasit.library.core.aniamtion
+package com.nesprasit.core.aniamtion
 
 import android.animation.Animator
 import android.animation.PropertyValuesHolder

@@ -2,7 +2,7 @@ package com.nesprasit.app
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.nesprasit.library.RadioButton
+import com.nesprasit.RadioButton
 import kotlinx.android.synthetic.main.activity_radio.*
 
 /**

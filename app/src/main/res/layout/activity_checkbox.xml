@@ -15,7 +15,7 @@
         android:gravity="center_vertical"
         android:layout_marginBottom="20dp">
 
-        <com.nesprasit.library.CheckBox
+        <com.nesprasit.CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:size="40dip"
@@ -40,7 +40,7 @@
         android:gravity="center_vertical"
         android:layout_marginBottom="20dp">
 
-        <com.nesprasit.library.CheckBox
+        <com.nesprasit.CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:size="40dip" />
@@ -62,7 +62,7 @@
         android:gravity="center_vertical"
         android:layout_marginBottom="20dp">
 
-        <com.nesprasit.library.CheckBox
+        <com.nesprasit.CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:size="40dip" />
