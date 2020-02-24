@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:padding="30dp">
+    android:padding="30dp"
+    android:background="@android:color/white">
 
     <com.nesprasit.library.SwitchView
         android:id="@+id/switch1"
