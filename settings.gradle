@@ -1,2 +1,2 @@
-include ':demo-app', ':design'
-rootProject.name='UI-Kit-Android'
+include ':app', ':library'
+rootProject.name='UISelector'
