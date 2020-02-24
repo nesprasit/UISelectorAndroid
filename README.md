@@ -1,5 +1,5 @@
 ![MinSdk](https://img.shields.io/badge/minSdk-19-green.svg)
-[![jCenter](https://img.shields.io/badge/jCenter-1.0.1-green.svg)](https://bintray.com/okanesboy/library/com.nesprasit.design/_latestVersion)
+[![jCenter](https://img.shields.io/badge/jCenter-1.0.2-green.svg)](https://bintray.com/okanesboy/library/com.nesprasit.design/_latestVersion)
 [![](https://img.shields.io/badge/License-Apache_v2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 # UI Kit Android 
 UI Kit is component for Android
@@ -10,18 +10,18 @@ Maven
 <dependency>
   <groupId>com.nesprasit</groupId>
   <artifactId>selector</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <type>pom</type>
 </dependency>
 ```
 Gradle
 ```
-implementation 'com.nesprasit:selector:1.0.1'
+implementation 'com.nesprasit:selector:1.0.2'
 ```
 ## How to use
 CheckBox
 ```
-<com.nesprasit.design.CheckBox
+<com.nesprasit.CheckBox
   android:layout_width="wrap_content"
   android:layout_height="wrap_content"
   app:size="40dip"
@@ -33,7 +33,7 @@ CheckBox
 
 RadioButton
 ```
-<com.nesprasit.design.RadioButton
+<com.nesprasit.RadioButton
     android:id="@+id/radio1"
     android:layout_width="50dip"
     android:layout_height="50dip"
@@ -45,7 +45,7 @@ RadioButton
 
 SwitchView
 ```
-<com.nesprasit.design.SwitchView
+<com.nesprasit.SwitchView
     android:id="@+id/switch3"
     android:layout_width="80dip"
     android:layout_height="40dip"
