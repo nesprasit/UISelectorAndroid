@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 
 ext {
     bintrayRepo = 'library'
-    bintrayName = 'UISelector'
+    bintrayName = 'com.nesprasit:selector'
 
     publishedGroupId = 'com.nesprasit'
     artifact = 'selector'
