@@ -8,15 +8,15 @@ UI Kit is component for Android
 Maven
 ```
 <dependency>
-  <groupId>com.nesprasit.design</groupId>
-  <artifactId>design</artifactId>
-  <version>1.0.0</version>
+  <groupId>com.nesprasit</groupId>
+  <artifactId>selector</artifactId>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
 Gradle
 ```
-implementation 'com.nesprasit.design:design:1.0.0'
+implementation 'com.nesprasit:selector:1.0.1'
 ```
 ## How to use
 CheckBox
