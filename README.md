@@ -29,7 +29,7 @@ CheckBox
   app:stroke_width="2dp"
   app:enabled="true"/>
 ```
-![](./example/checkbox.gif)
+![](./images/checkbox.gif)
 
 RadioButton
 ```
@@ -41,7 +41,7 @@ RadioButton
     app:enabled="true"
     app:checked="false"/>
 ```
-![](./example/radiobutton.gif)
+![](./images/radiobutton.gif)
 
 SwitchView
 ```
@@ -53,7 +53,7 @@ SwitchView
     app:enabled="true"
     app:checked="false"/>
 ```
-![](./example/switchview.gif)
+![](./images/switchview.gif)
 
 ## License
 ```
